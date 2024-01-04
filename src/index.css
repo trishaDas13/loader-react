@@ -28,7 +28,17 @@ body{
   border-radius: 15px;
   padding: 0 0.7rem;
 }
-
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
 .container p{
   text-align: center;
+}
+img{
+  border-radius: 10px;
+  box-shadow: 0 0 20px #132043;
 }
